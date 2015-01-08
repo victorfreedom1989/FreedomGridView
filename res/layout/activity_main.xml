@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.freedom.gridview.FreedomGridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="150dp"
+        android:horizontalSpacing="40dp"
+        android:minHeight="100dp"
+        android:minWidth="100dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="none"
+        android:verticalSpacing="50dp" >
+    </com.freedom.gridview.FreedomGridView>
+
+</RelativeLayout>
